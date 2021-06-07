@@ -1,7 +1,7 @@
 :root{
     --red: #E50914;
     --black: #141414;
-    --white: #aaa;
+    --white: rgb(185, 185, 185);
 }
 *{
     margin: 0;
@@ -49,8 +49,8 @@ header nav li a:hover{
 .filme-principal{
     font-size: 16px;
     height: 400px;
-    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%) , url("/assets/img/capa-house.jpg");
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)100%) , url("/assets/img/BannerLucifer.jpg");
+    background-size:cover;
     display: flex;    
     flex-direction: column;
     justify-content: center;
@@ -58,10 +58,11 @@ header nav li a:hover{
 }
 .filme-principal .descricao{
     margin: 10px 0 40px 0;
+    font-size: 1rem;
 }
 .filme-principal .titulo{
     margin-top: 15%;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .botao{
     background-color: rgba(0,0,0,0.60);
@@ -84,5 +85,11 @@ header nav li a:hover{
 }
 .filme-principal .container{
     margin-left: 30px;
-    width: 60%;
+    width: 40%;
+}
+/* jquery owl-carrosel*/
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
