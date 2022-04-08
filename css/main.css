@@ -1,99 +1,113 @@
-:root{
+:root {
     --red: #E50914;
     --black: #141414;
     --white: #aaaaaa;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-body{
-    background: var(--black); 
+
+body {
+    background: var(--black);
     color: white;
-    font-family: 'Arial','Times New Roman', Times, serif;
+    font-family: 'Arial', 'Times New Roman', Times, serif;
 }
 
 /* header */
-header .logo{
+header .logo {
     color: var(--red);
     font-size: 40px;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2px 30px;
 }
-header .container nav ul{
-    
+
+header .container nav ul {
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-header nav li{
+
+header nav li {
     margin-left: 18px;
     list-style: none;
 }
-header nav li a{
+
+header nav li a {
     color: var(--white);
     font-size: 1.2rem;
 }
-header nav li a:hover{
+
+header nav li a:hover {
     color: #ffffff;
 }
 
 /* Main */
-.filme-principal{
+.filme-principal {
     font-size: 16px;
     height: 400px;
-    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)100%) , url("/assets/img/BannerLucifer.jpg");
-    background-size:cover;
-    display: flex;    
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60) 100%), url("/img/BannerLucifer.jpg");
+    background-size: cover;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-.filme-principal .descricao{
+
+.filme-principal .descricao {
     margin: 10px 0 40px 0;
     font-size: 1rem;
 }
-.filme-principal .titulo{
+
+.filme-principal .titulo {
     margin-top: 15%;
     font-size: 5rem;
 }
-.botao{
-    background-color: rgba(0,0,0,0.60);
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.60);
     border: none;
     color: white;
     padding: 15px 30px;
     text-transform: uppercase;
     margin-right: 20px;
     font-size: 12px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     transition: 0.3s ease all;
 }
-.botao:hover{
+
+.botao:hover {
     background-color: white;
     color: black;
 }
+
 .botao i {
     margin-right: 8px;
 }
-.filme-principal .container{
+
+.filme-principal .container {
     margin-left: 30px;
     width: 40%;
 }
+
 /* jquery owl-carrosel*/
-.box-filmes{
+.box-filmes {
     height: 100%;
     width: 100%;
     display: block;
 }
 
-.carousel-filmes{
-    margin-top:5px;
+.carousel-filmes {
+    margin-top: 5px;
 }
